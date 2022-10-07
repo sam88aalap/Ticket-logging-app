@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketApp.CommonLayer", "TicketApp.CommonLayer\TicketApp.CommonLayer.csproj", "{6B59097F-402B-4634-8051-F3BFC6D6F98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketApp.BusinessLayer", "TicketApp.BusinessLayer\TicketApp.BusinessLayer.csproj", "{1C984C45-0909-462F-8200-1EED4DAE2194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketApp.WebApp", "TicketApp.WebApp\TicketApp.WebApp.csproj", "{22FEC0FA-9691-4326-99E9-59D379773807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketApp.EFLayer", "TicketApp.EFLayer\TicketApp.EFLayer.csproj", "{2F487F2A-D4F9-45F9-A79D-AF2E5685D731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketApp.DataLayer", "TicketApp.DataLayer\TicketApp.DataLayer.csproj", "{D35C8AD5-47F3-4D19-BB55-82A1494208E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B59097F-402B-4634-8051-F3BFC6D6F98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B59097F-402B-4634-8051-F3BFC6D6F98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B59097F-402B-4634-8051-F3BFC6D6F98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B59097F-402B-4634-8051-F3BFC6D6F98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C984C45-0909-462F-8200-1EED4DAE2194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C984C45-0909-462F-8200-1EED4DAE2194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C984C45-0909-462F-8200-1EED4DAE2194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C984C45-0909-462F-8200-1EED4DAE2194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FEC0FA-9691-4326-99E9-59D379773807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FEC0FA-9691-4326-99E9-59D379773807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FEC0FA-9691-4326-99E9-59D379773807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FEC0FA-9691-4326-99E9-59D379773807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F487F2A-D4F9-45F9-A79D-AF2E5685D731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F487F2A-D4F9-45F9-A79D-AF2E5685D731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F487F2A-D4F9-45F9-A79D-AF2E5685D731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F487F2A-D4F9-45F9-A79D-AF2E5685D731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35C8AD5-47F3-4D19-BB55-82A1494208E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35C8AD5-47F3-4D19-BB55-82A1494208E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35C8AD5-47F3-4D19-BB55-82A1494208E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35C8AD5-47F3-4D19-BB55-82A1494208E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E3848D4-0D22-4834-9A3A-430BC830FAE1}
+	EndGlobalSection
+EndGlobal

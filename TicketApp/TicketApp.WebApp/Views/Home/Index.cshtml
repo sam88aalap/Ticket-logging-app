@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card-body text-center ">
+    <div class="text-center">
+        <h1 class="display-4">Ticket Logger</h1>
+        <p>Login to raise ticket</p>
+
+        <div class="row">
+            <div class="col-12">
+
+                <form method="post" asp-controller="Home" asp-action="Login">
+                    <button class="btn btn-sm btn-outline-primary">Login</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</div>

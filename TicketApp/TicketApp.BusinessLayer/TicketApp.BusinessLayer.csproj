@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TicketApp.CommonLayer\TicketApp.CommonLayer.csproj" />
+    <ProjectReference Include="..\TicketApp.EFLayer\TicketApp.EFLayer.csproj" />
+  </ItemGroup>
+
+</Project>
